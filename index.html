@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Eduardo Noveli</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/Monitor.jpg" alt="Monitor">
+            </div>
+            <div class="banner">
+                <h1>Pagina Pessoal</h1>
+                <p>Eduardo Noveli</p>
+                <a href="saiba_mais.html"><button>Saiba Mais</button></a>
+            </div>
+        </header>
+        <aside class="sidebar ">
+            <nav>
+                <ul class="menu ">
+                    <li class="menu-item "><a href="#home " class="menu-link ">Home</a></li>
+                    <li class="menu-item "><a href="#conhecimentos " class="menu-link ">Conhecimento</a></li>
+                    <li class="menu-item "><a href="#contato " class="menu-link ">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="social-media ">
+                <a href="https://www.facebook.com/eduardo.noveli.10/"><i class="fab fa-facebook-f "></i></a>
+                <a href="https://github.com/Eduardo-no "><i class="fab fa-github "></i></a>
+                <a href="https://www.instagram.com/eduardo.noveli10/"><i class="fab fa-instagram "></i></a>
+            </div>
+
+        </aside>
+
+        <section class="sessao-conhecimentos " id="conhecimentos">
+            <div class="sessao-header ">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos ">
+                <div class="conhecimento ">
+                    <div class="conhecimento-header ">
+                        <i class="fab fa-html5 "></i>
+                        <h3>Html</h3>
+                    </div>
+                    <div class="conhecimento-text ">
+                        <p>Conhecimento basico em HTML:5, usando TAG's, link's para sites externos e internamente na mesma pagina, icones e redes socias.</p>
+                    </div>
+                </div>
+                <div class="conhecimento ">
+                    <div class="conhecimento-header ">
+                        <i class="fab fa-css3-alt "></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text ">
+                        <p>Experiencia de uso do CSS para tratamento da pagina em html, PHP e outras linguagens de programação, para tratamento de cor, fonte, expessura, tamanho, alinhamento e desing.</p>
+                    </div>
+                </div>
+                <div class="conhecimento ">
+                    <div class="conhecimento-header ">
+                        <i class="fab fa-php "></i>
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="conhecimento-text ">
+                        <p>Uso de PHP para calculos, formularios, link's, tabelas dinamicas, envio e recebimentos de dados com banco de dados.</p>
+                    </div>
+                </div>
+                <div class="conhecimento ">
+                    <div class="conhecimento-header ">
+                        <i class="fab fa-js "></i>
+                        <h3>Java Script</h3>
+                    </div>
+                    <div class="conhecimento-text ">
+                        <p>Principalmente para uso de calculos, detecção de movimentos para execução de ações especificas no site, tornando mais cativante ao usuarios.</p>
+                    </div>
+                </div>
+                <div class="conhecimento ">
+                    <div class="conhecimento-header ">
+                        <i class="fab fa-bootstrap "></i>
+                        <h3>Boostrap</h3>
+                    </div>
+                    <div class="conhecimento-text ">
+                        <p>Ferramenta de uso para facilitar e agilizar processos de montagens de sites, com desing ja prontos para intens como botões, barras de navegação, rodapes, e outros.</p>
+                    </div>
+                </div>
+                <div class="conhecimento ">
+                    <div class="conhecimento-header ">
+                        <i class="fab fa-github "></i>
+                        <h3> <a href="https://github.com/Eduardo-no" class="link-git">GitHub</a> </h3>
+                    </div>
+                    <div class="conhecimento-text ">
+                        <p>Repositorio onde se localizam meus projetos para breve analise do trabalho. Local onde são arquivados trabalhos anteriores.</p>
+                    </div>
+                </div>
+                <div class="conhecimento-img-wrapper ">
+                    <img src="imagens/Conhecimento.jpg " alt="conhecimento ">
+                </div>
+            </div>
+        </section>
+        <section class="sessao-contato " id="contato">
+            <div class="contato-wrapper ">
+                <div class="contato-left "></div>
+
+                <div class="contato-right ">
+                    <h1>Contato</h1>
+                    <form action="php/enviar_email.php" method="POST">
+
+                        <div class="input-group">
+                            <input name="nome" type="text" class="field" id="nome "><label for="nome" class="field-label">Nome</label>
+                        </div>
+
+                        <div class="input-group ">
+                            <input name="email" type="text" class="field" id="email"><label for="email" class="field-label">Email</label>
+                        </div>
+
+                        <div class="input-group ">
+                            <textarea name="mensagem" class="field" id="mensagem "></textarea><label for="mensagem " class="field-label ">Mensagem</label>
+                        </div>
+
+                        <button type="submit " class="btn-submit ">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content ">
+                <p>
+                    Desenvolvedor Eduardo Noveli 2021 Trabalho de Conclusão de Curso Etec "Ver. e Vice-Pref. Sérgio da Fonseca "
+                    <!-- Transformar a index em php, data de forma dinamica 'php' /<?= date('Y'); ?>-->
+                </p>
+                <div class="social-list ">
+                    <ul>
+                        <li><a href="https://www.facebook.com/eduardo.noveli.10/"><i class="fab fa-facebook-f "></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/eduardo.noveli10/"><i class="fab fa-instagram "></i></a>
+                        </li>
+                        <li><a href="https://github.com/Eduardo-no"><i class="fab fa-github "></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="">
+            <i class="fas fa-arrow-up "></i>
+        </a>
+    </div>
+</body>
+
+<script src="script.js "></script>
+
+</html>
